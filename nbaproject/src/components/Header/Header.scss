@@ -1,0 +1,15 @@
+.header {
+  background: #242424;
+  border-bottom: 1px solid #000000;
+
+  &__options {
+    display: flex;
+  }
+  &__logo {
+    flex-grow: 1;
+    padding-top: 8px;
+    img{
+      width: 35px;
+    }
+  }
+}
